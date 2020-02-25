@@ -12,4 +12,9 @@
         android:id="@+id/navigation_report"
         android:icon="@drawable/ic_list_black_24dp"
         android:title="@string/bottom_navigation_report" />
+
+    <item
+        android:id="@+id/navigation_elo"
+        android:icon="@drawable/ic_group_work_black_24dp"
+        android:title="@string/bottom_navigation_elo" />
 </menu>

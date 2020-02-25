@@ -4,6 +4,7 @@ import android.content.Context
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 import org.koin.core.module.Module
+import org.mtg.screen.elo.EloModules
 import org.mtg.screen.leagues.LeagueModules
 import org.mtg.screen.play.PlayModules
 import org.mtg.screen.report.ReportModules
@@ -21,6 +22,7 @@ object ApplicationInjector {
     private fun modules(): List<Module> =
         listOf(
             CommonModules(),
+            EloModules(),
             LeagueModules(),
             PlayModules(),
             ReportModules(),

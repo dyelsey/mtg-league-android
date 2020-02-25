@@ -14,6 +14,8 @@ class BottomNavigationHelper {
                 navController.navigate(R.id.navigate_to_standings)
             R.id.navigation_report ->
                 navController.navigate(R.id.navigate_to_report)
+            R.id.navigation_elo ->
+                navController.navigate(R.id.navigate_to_elo)
         }
         return true
     }

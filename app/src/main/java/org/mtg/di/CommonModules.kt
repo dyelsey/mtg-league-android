@@ -26,7 +26,7 @@ class CommonModules : Modules {
 
     private fun api() = module {
         single { ApiFactory(get()) }
-
+        single { createApi<EloApi>(get()) }
         single { createApi<LeagueApi>(get()) }
         single { createApi<MatchResultApi>(get()) }
         single { createApi<StandingApi>(get()) }
@@ -44,6 +44,7 @@ class CommonModules : Modules {
     }
 
     private fun repos() = module {
+        factory { EloStandingsRemoteRepository(get()) }
         factory { LeagueRemoteRepository(get()) }
         factory { MatchRemoteRepository(get()) }
         factory { StandingRemoteRepository(get()) }

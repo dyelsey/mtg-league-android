@@ -8,6 +8,8 @@
     <string name="color_green">Green</string>
     <string name="color_red">Red</string>
     <string name="color_white">White</string>
+    <string name="bottom_navigation_elo">Elo</string>
+    <string name="bottom_navigation_elo_overall_standings">Overall Standings</string>
     <string name="bottom_navigation_play">Play</string>
     <string name="bottom_navigation_play_add">+</string>
     <string name="bottom_navigation_play_subtract">-</string>

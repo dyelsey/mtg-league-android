@@ -32,7 +32,6 @@ class PlayFragment : HomeFragment() {
         savedInstanceState: Bundle?
     ): View? = inflater.inflate(R.layout.fragment_scoreboard, container, false)
 
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         setupScoreBoard()

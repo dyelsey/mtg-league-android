@@ -9,7 +9,7 @@ import org.mtg.di.Modules
 import org.mtg.di.dependencyName
 import org.mtg.repository.SettingsLocalRepository
 
-class StandingsModules: Modules {
+class StandingsModules : Modules {
     companion object {
         val ADAPTER = dependencyName<StandingsModules>("adapter")
     }
